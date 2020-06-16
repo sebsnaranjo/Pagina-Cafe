@@ -54,6 +54,34 @@ img {
 .no-margin {
     margin: 0;
 }
+/* Botones */
+.btn {
+    display: block;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+@media (min-width: 600px) {
+    .btn {
+        display: inline-block;
+    }
+}
+
+
+.btn-primario {
+    background-color: black;
+}
+
+.btn-secundario {
+    background-color: #784d3c;
+}
 
 /* Header */
 @media (min-width: 768px) {
