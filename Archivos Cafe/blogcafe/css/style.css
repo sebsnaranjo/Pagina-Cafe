@@ -46,5 +46,50 @@ img {
 /* Utilidades */ 
 
 .centrar-texto {
-    
+    text-align: center;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+/* Header */
+.site-header {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60rem;
+}
+
+.site-header a {
+    color: white;
+    text-decoration: none;
+}
+
+.site-header h1 {
+    text-align: center;
+    font-weight: 400;
+}
+
+.site-header h1 span {
+    font-weight: 700;
+}
+
+/* Navegacion */
+
+.navegacion a {
+    text-align: center;
+    display: block;
+    font-size: 1.8rem;
+}
+
+.texto-header {
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.texto-header p {
+    font-size: 2.2rem;
 }
